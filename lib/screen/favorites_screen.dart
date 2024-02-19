@@ -5,6 +5,8 @@ import '../core/uilts/asset.dart';
 import '../widget/category_roomies_widget.dart';
 import 'favotites_serch_screen.dart';
 
+
+
 class FavoritesScreen extends StatelessWidget {
   static route() =>
       MaterialPageRoute(builder: (context) => FavoritesScreen());
