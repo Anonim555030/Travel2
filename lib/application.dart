@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/home_screen/home_screen.dart';
+
+import 'home_screen/two_home_screen.dart';
+
 
 class Application extends StatelessWidget {
   const Application({super.key});
@@ -13,7 +15,7 @@ class Application extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const TwoHomeScreen(),
     );
   }
 }

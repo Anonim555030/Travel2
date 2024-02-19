@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
+
 class HomeWidget extends StatelessWidget {
   final String title;
   final bool isGreen;
+  final bool isIcon;
   const HomeWidget(
-      {super.key, required this.title, this.isGreen = false});
+      {super.key, required this.title, this.isGreen = false,  this.isIcon = false});
+
+  get icon => null;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 40,
-      width: 164,
       decoration: BoxDecoration(
         color: isGreen ? Colors.white : Colors.black,
         borderRadius: BorderRadius.circular(4),
