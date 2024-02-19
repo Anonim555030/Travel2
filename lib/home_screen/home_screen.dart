@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
               children: [
-                SizedBox(
+                const SizedBox(
                   height: 16,
                 ),
                 const Text(
